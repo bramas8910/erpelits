@@ -4,9 +4,62 @@
     "isTitle": true
   },
   {
-    "name": "Dashboard",
+    "name": "Main Menu",
     "url": "index.html",
     "icon": "grid-fill"
+  },
+  {
+	"name": "Accounting",
+	"key": "accounting",
+	"icon": "cash-stack",
+	"submenu": [
+	  {
+		"name": "Dashboard",
+		"url": "accounting-dashboard.html"
+	  },
+	  {
+		"name": "History",
+		"url": "accounting-history.html"
+	  },
+	  {
+		"name": "Create Transaction",
+		"url": "accounting-create-transaction.html"
+	  }
+	  ]
+  },
+  {
+	"name": "Inventory",
+	"key": "inventory",
+	"icon": "archive-fill",
+	"submenu": [
+	  {
+		"name": "Dashboard",
+		"url": "inventory-dashboard.html"
+	  },
+	  {
+		"name": "History",
+		"url": "index.html"
+	  },
+	  {
+		"name": "Create Transaction",
+		"url": "index.html"
+	  }
+	  ]
+  },
+  {
+	"name": "Projects",
+	"key": "project",
+	"icon": "clipboard-fill",
+	"submenu": [
+	  {
+		"name": "PA",
+		"url": "index.html"
+	  },
+	  {
+		"name": "HAR",
+		"url": "index.html"
+	  }
+	  ]
   },
   {
     "name": "Components",
